@@ -1,0 +1,23 @@
+{
+  "name": "uniapp_save_conf",
+  "version": "0.0.2",
+  "description": "uniapp中打包时自动备份配置文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxhgnxx/uniapp_save_conf.git"
+  },
+  "keywords": [
+    "uniapp",
+    "project.config"
+  ],
+  "author": "hgn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxhgnxx/uniapp_save_conf/issues"
+  },
+  "homepage": "https://github.com/xxhgnxx/uniapp_save_conf#readme"
+}
