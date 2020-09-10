@@ -1,13 +1,12 @@
 var fs = require('fs');
 var path = require('path');
 
-console.log('__Dir', __dirname);
 var hasConf = false;
 function copyFile (src, dist) {
   const fileName = 'project.config.json';
-  const srcRes = path.resolve(__dirname, `${src}/${fileName}`);
-  const distRes = path.resolve(__dirname, dist);
-
+  const baseDir = path.resolve(__dirname,'../../')
+  const srcRes = path.resolve(baseDir, `${src}/${fileName}`);
+  const distRes = path.resolve(baseDir, dist);
   if (fs.existsSync(srcRes)) {
     if (!fs.existsSync(distRes)) {
       fs.mkdirSync(distRes, { recursive: true });

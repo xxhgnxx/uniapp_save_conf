@@ -1,6 +1,6 @@
 {
   "name": "uniapp_save_conf",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "uniapp中打包时自动备份配置文件",
   "main": "index.js",
   "scripts": {
